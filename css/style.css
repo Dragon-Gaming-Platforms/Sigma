@@ -252,3 +252,72 @@ footer a:hover {
 .search-bar {
     text-align: center;
 }
+/* Previous styles remain... add these new ones */
+
+.setup-message {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.setup-message h2 {
+    color: #667eea;
+    margin-bottom: 1rem;
+}
+
+.setup-message ol {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.setup-message li {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.setup-message code {
+    background: #f4f4f4;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    color: #667eea;
+}
+
+.no-games {
+    grid-column: 1 / -1;
+    padding: 3rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    color: #333;
+}
+
+.no-games h2 {
+    color: #667eea;
+    margin-bottom: 1rem;
+}
+
+.no-games code {
+    background: #f4f4f4;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    color: #667eea;
+}
+
+.no-games pre {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem auto;
+    max-width: 400px;
+    color: #333;
+    font-family: 'Courier New', monospace;
+}
+
+.refresh-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
