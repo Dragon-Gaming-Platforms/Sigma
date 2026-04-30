@@ -89,3 +89,22 @@ MIT License - Feel free to use and modify!
 Edit css/style.css to change colors and styling
 Modify js/main.js to add features
 Replace emojis with actual game thumbnails
+
+
+## 🚀 Setup Instructions
+
+1. **Create the repository on GitHub:**
+   - Go to github.com and create a new repository
+   - Name it `web-games-portal` (or your preferred name)
+   - Make it public
+
+2. **Upload the files:**
+   ```bash
+   git clone https://github.com/yourusername/web-games-portal.git
+   cd web-games-portal
+   # Copy all the files above into the directory
+   git add .
+   git commit -m "Initial commit - Web Games Portal"
+   git push origin main
+   ```
+   
