@@ -1,6 +1,5 @@
 
-### `games/README.md`
-```markdown
+
 # Games Directory
 
 Add your single-file HTML games here!
@@ -33,3 +32,4 @@ Add your single-file HTML games here!
     </script>
 </body>
 </html>
+```
